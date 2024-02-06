@@ -1,0 +1,71 @@
+---
+title: "Homework1"
+author: "loyd Lewins"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{Question}
+"
+Exercise 1.
+
+Shell includes all command line interfaces while bash is a specific implementation which is open source and works with Linux. 
+```
+
+```{Exercises}
+"Questions
+
+1.
+cd~ returns to my home directory which is /c/users/lloyd
+
+Returning to my working directory
+cd Documents/
+cd Spring2024Data
+This returns me to my working directory.
+
+2. 
+The command 
+    cd ~/../../..
+Takes me 3 levels above my home directory
+
+3. 
+The -a command instructs bash not to ignore all entities or all entities starting with a certain letter or number.
+The -1 flag lists one file per line.
+
+4.
+
+$ touch myfile2.txt 
+
+$ stat myfile2.txt 
+
+These commands create the file and provide details about when 
+it was created and modified as well as it's size. 
+
+5. 
+ls -1 -l myfile.txt
+
+This shows who created the file and when and what the permision levels are. 
+
+6. 
+  echo This is the first line of myfile.txt >> myfile.txt
+ 
+ cat myfile.txt 
+ 
+ 
+7. 
+
+$ stat myfile.txt
+  File: myfile.txt
+  Size: 41              Blocks: 1          IO Block: 65536  regular file
+Device: fabf852eh/4206855470d   Inode: 22799473113596922  Links: 1
+Access: (0644/-rw-r--r--)  Uid: (197610/   lloyd)   Gid: (197610/ UNKNOWN)
+Access: 2024-02-02 13:09:19.788716000 -0500
+Modify: 2024-02-02 13:09:06.452507100 -0500
+Change: 2024-02-02 13:09:06.452043500 -0500
+ Birth: 2024-02-02 13:07:06.286391700 -0500
+
+
+It appears to update the timestamp on the file."
+
+```
+
